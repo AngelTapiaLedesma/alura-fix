@@ -8,7 +8,7 @@ function App() {
     <>
       <Header>
       </Header>
-      <Banner></Banner>
+      <Banner/>
     </>
   )
 }

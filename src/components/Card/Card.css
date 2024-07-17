@@ -1,8 +1,40 @@
-.card {
-    width: 1367px;
+.card{
+    display: flex;
+    width: 1363px;
     height: 333px;
+    justify-content: center;
+    align-self: center;
+    
+}
+.card-content {
+    gap: 30px;
+    width: 665px;
+    height: 305px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+}
+
+.image {
+    width: 647px;
+    height: 333px;
+    border: solid #6BD1FF 5px;
+    border-radius: 20px;
+}
+
+.subtitle {
+    font-size: 46px;
+    font-family: "Roboto";
+    font-weight: 400;
+    line-height: 54px;
+    color:#FFFFFF;
+}
+
+.paragraph {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #FFFFFF;
 }
